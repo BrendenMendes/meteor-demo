@@ -1,0 +1,24 @@
+<head>
+  <title>tasklist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h1>To do list</h1>
+  {{> tasklist}}
+</body>
+
+<template name="tasklist">
+  <input type="text" name="taskname" id="taskname">
+  <button type="submit" id="add">Add</button>
+  <br />
+  <h2>Tasks</h2>
+  <ul>
+    {{#each tasks}}
+      <li>
+        {{this.name}}
+        <button id="delete" value={{this._id}}>Delete</button><br />
+      </li>
+    {{/each}}
+  </ul>
+</template>
