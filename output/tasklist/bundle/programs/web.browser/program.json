@@ -1,0 +1,62 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "aa76769fad6851170fc9d1cc70ad9419c47a553d.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/aa76769fad6851170fc9d1cc70ad9419c47a553d.js?meteor_js_resource=true",
+      "replaceable": false,
+      "size": 437923,
+      "hash": "aa76769fad6851170fc9d1cc70ad9419c47a553d",
+      "sri": "xKKuU+K/7E7F5svNk6It4vqX4AfzkHBftHLMnrPV2juE6DBw71uXfouoeQWm0L37rK/dDp7+Ycd2H0Gy0XmU7g=="
+    },
+    {
+      "path": "aa76769fad6851170fc9d1cc70ad9419c47a553d.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/aa76769fad6851170fc9d1cc70ad9419c47a553d.stats.json?meteor_js_resource=true",
+      "size": 17353,
+      "hash": "692e6f445e09f38d83482c6a9993bef2afbe446e",
+      "sri": "VUoa9aiGwR1f/G5ISvW8EnGOb70Q22dP6WqbGYZDDESdZpnhCBW46tRFxUFyKo0/0HKVAiYWfTEC0d2UWVrKNw=="
+    },
+    {
+      "path": "8ae3c3664690528bf869bb3651d74c0bea4f8e00.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/8ae3c3664690528bf869bb3651d74c0bea4f8e00.css?meteor_css_resource=true",
+      "size": 41,
+      "hash": "8ae3c3664690528bf869bb3651d74c0bea4f8e00",
+      "sri": "c/IlstUSLb+k/jpTFoRthnUg+HlJmJ7+nDH2mlHWVToYyA4kUqZ/U43R0OTTLgwmJUvedLSf9qK0s+6DKJcHlw=="
+    },
+    {
+      "path": "packages/promise/promise.d.ts",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/promise/promise.d.ts",
+      "size": 633,
+      "hash": "4aa461da7ad90c74a51ddfccc84b055fc0403119",
+      "sri": "6MVw86BmnkmTtXXlCxaH8k7xIUcMZK4O57Nnu82uI5MJT9Fbru7Yv71SuHx+giKUM9wkRs7WkpqPWjADS+U2qw=="
+    },
+    {
+      "path": "packages/tracker/tracker.d.ts",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/tracker/tracker.d.ts",
+      "size": 5906,
+      "hash": "e9b73990080841fc8d088777bbe0023d85fa87f8",
+      "sri": "rHA2revIejFwbiSudxPmxCsKjNDpwmP+ciMturXr8FeqfZe5hu1s1EL/TmsaZ97KS/2GYM3IXnuBVRcFmWw7IQ=="
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "e74c24d5e95c9d1ef9d7694daa7aede64905c64f"
+    }
+  ]
+}
