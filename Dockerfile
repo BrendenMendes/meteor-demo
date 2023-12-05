@@ -1,9 +1,8 @@
 FROM node:14
 WORKDIR /usr/src/app
-#RUN curl https://install.meteor.com/ | sh
-#COPY package*.json ./
-#RUN meteor npm install
 COPY ./output/tasklist/bundle .
+RUN cd programs/server
+RUN npm i
 ENV ROOT_URL=https://meteor-demo-production.up.railway.app/
 ENV MONGO_URL="mongodb+srv://brendenmendes:jIkhSk9jnPSsAR83@justplay.pee7axn.mongodb.net/?retryWrites=true&w=majority"
 ENV PORT=3000
