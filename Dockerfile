@@ -1,6 +1,6 @@
 FROM node:14
 WORKDIR /usr/src/app
-COPY ./output/tasklist/bundle .
+COPY ./build/bundle .
 WORKDIR /programs/server
 CMD ["npm", "i"]
 WORKDIR /usr/src/app
